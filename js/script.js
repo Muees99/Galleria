@@ -31,14 +31,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Show navigation buttons
     function showNavigationButtons() {
-        localStorage.setItem('navigationButtonsVisible', 'true'); // Save state in local storage
+        // Save state in local storage
+        localStorage.setItem('navigationButtonsVisible', 'true'); 
         prevBtn.style.display = 'block';
         nextBtn.style.display = 'block';
     }
 
     // Hide navigation buttons
     function hideNavigationButtons() {
-        localStorage.setItem('navigationButtonsVisible', 'false'); // Save state in local storage
+        // Save state in local storage
+        localStorage.setItem('navigationButtonsVisible', 'false'); 
         prevBtn.style.display = 'none';
         nextBtn.style.display = 'none';
     }
